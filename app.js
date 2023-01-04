@@ -48,7 +48,7 @@ let upload = multer({ storage: storage })
 app.post('/download', upload.single('ufile'), (req, res, next) => {
     console.log(req.file)
     res.send(
-        `<script>alert("파일 업로드 성공");location.replace('index.html')</script>` // history.go(-1)
+        `<script>alert("파일 업로드 성공");location.replace('index.html')</script>`
     )
 })
 
