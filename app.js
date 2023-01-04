@@ -1,3 +1,7 @@
+// npm init
+// npm install express
+// npm install morgan
+// npm install multer
 const express = require('express')
 const path = require('path')
 const logger = require('morgan')
